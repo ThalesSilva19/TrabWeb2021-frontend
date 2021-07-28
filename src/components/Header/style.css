@@ -1,0 +1,29 @@
+.navbar {
+	box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.bg-light {
+	background-color: var(--main-color)!important;
+}
+
+.nav-link {
+	color: white!important;
+	border-bottom: solid 1px var(--main-color);
+	transition: all linear 150ms;
+}
+
+.nav-link:hover {
+	border-bottom: solid 1px white;
+}
+
+.btn-outline-success {
+	color: white;
+	border-color: white;
+	transition: all linear 150ms;
+}
+
+.btn-outline-success:hover {
+	border-color: white;
+	background-color: white;
+	color: var(--main-color);
+}
